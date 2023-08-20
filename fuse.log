@@ -1,0 +1,65 @@
+Running: D:\14.7\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/HP/Desktop/Phase2FV/testbenchmain_isim_beh.exe -prj C:/Users/HP/Desktop/Phase2FV/testbenchmain_beh.prj work.testbenchmain 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/reg.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/MyPackage.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/Mux32.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/Decoder.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/SignExtend.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/ShiftLeft2Jump.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/ShiftLeft2.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/RegisterFile.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/PC4.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/PC.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/Mux4.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/Mux3.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/Mux2.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/Mux1.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/Mux0.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/INSTRMEMORY.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/DATAMEMORY.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/Control.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/ALUControl.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/MainModule.vhd" into library work
+Parsing VHDL file "C:/Users/HP/Desktop/Phase2FV/testbenchmain.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package std_logic_signed
+Compiling package textio
+Compiling package std_logic_textio
+Compiling package mypackage
+Compiling architecture behavioral of entity Control [control_default]
+Compiling architecture behavioral of entity ALUControl [alucontrol_default]
+Compiling architecture behavioral of entity DATAMEMORY [\DATAMEMORY(64,32,32)\]
+Compiling architecture behavioral of entity INSTRMEMORY [\INSTRMEMORY(64,32,32)\]
+Compiling architecture behavioral of entity SignExtend [signextend_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture behavioral of entity PC4 [pc4_default]
+Compiling architecture behavioral of entity ShiftLeft2 [shiftleft2_default]
+Compiling architecture behavioral of entity ShiftLeft2Jump [shiftleft2jump_default]
+Compiling architecture behavioral of entity Decoder [decoder_default]
+Compiling architecture behavioral of entity reg [reg_default]
+Compiling architecture behavioral of entity Mux32 [mux32_default]
+Compiling architecture behavioral of entity RegisterFile [registerfile_default]
+Compiling architecture behavioral of entity Mux4 [mux4_default]
+Compiling architecture behavioral of entity Mux3 [mux3_default]
+Compiling architecture behavioral of entity Mux2 [mux2_default]
+Compiling architecture behavioral of entity Mux1 [mux1_default]
+Compiling architecture behavioral of entity Mux0 [mux0_default]
+Compiling architecture behavioral of entity MainModule [mainmodule_default]
+Compiling architecture behavior of entity testbenchmain
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 50 VHDL Units
+Built simulation executable C:/Users/HP/Desktop/Phase2FV/testbenchmain_isim_beh.exe
+Fuse Memory Usage: 39640 KB
+Fuse CPU Usage: 780 ms

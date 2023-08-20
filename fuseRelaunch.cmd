@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/HP/Desktop/Phase2FV/testbenchmain_isim_beh.exe" -prj "C:/Users/HP/Desktop/Phase2FV/testbenchmain_beh.prj" "work.testbenchmain" 
